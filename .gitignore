@@ -1,0 +1,34 @@
+# Ignore build and binary files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# Ignore CMake and Makefile outputs
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ignore Visual Studio and CodeBlocks files
+*.sln
+*.vcxproj*
+*.cbp
+*.code-workspace
+
+# Ignore compiled Python extension modules
+*.pyd
+
+# Ignore debugging and log files
+*.log
+*.tmp
+
+# Ignore dependency files
+*.d
+.vscode/
+.idea/
